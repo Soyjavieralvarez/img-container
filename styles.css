@@ -88,7 +88,6 @@
 
     
     .audi-summit {
-        /* border: solid 1px red; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -107,14 +106,13 @@
     }
     
     .summit-info-h3 {
-        /* border: solid 1px rgb(0, 0, 0); */
         display: flex;
         align-items: center;
         justify-content: center;
         height: 0px;
         width: 100%;
         font-size: 30px;
-        padding:90px;
+        padding: 50px;
         margin: 20px;
     }
     
@@ -148,7 +146,6 @@
     }
     
     .audi-summit-photo {
-        /* border: solid 1px red; */
         display: flex;
         align-items: center;
         justify-content: center;
