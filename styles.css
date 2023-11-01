@@ -8,7 +8,7 @@
 }
 
 .audi-summit {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
 }
 
 .audi-summit_info {
-    border: solid 1px rgb(217, 255, 0);
+    /* border: solid 1px rgb(217, 255, 0); */
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -26,7 +26,7 @@
 }
 
 .summit-info-h3 {
-    border: solid 1px rgb(217, 255, 0);
+    /* border: solid 1px rgb(217, 255, 0); */
     display: flex;
     align-items: center;
     margin: 30px;
@@ -34,14 +34,14 @@
 }
 
 .summit-info-h5 {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin: 30px;
     font-size: 15px;
     font-weight: 400;
 }
 
 .summit-button{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     padding: 10px;
     display: flex;
     align-items: center;
@@ -51,6 +51,7 @@
 }
 
 .summit-button button {
+    border: solid 1px rgb(140, 156, 139);
     padding: 20px;
     background-color: white;
     border: solid 1px black;
@@ -66,7 +67,7 @@
 }
 
 .audi-summit-photo {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,15 +76,20 @@
 }
 
 .summit-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 600px;
 }
+
+/* MOBILE QUERIES */ 
 
 
 @media only screen and (max-width: 767px) { 
 
     
     .audi-summit {
-        border: solid 1px red;
+        /* border: solid 1px red; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,7 +108,7 @@
     }
     
     .summit-info-h3 {
-        border: solid 1px rgb(0, 0, 0);
+        /* border: solid 1px rgb(0, 0, 0); */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,7 +149,7 @@
     }
     
     .audi-summit-photo {
-        border: solid 1px red;
+        /* border: solid 1px red; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -152,8 +158,17 @@
     }
     
     .summit-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 400px;
     }
     
+
+ }
+
+ @media only screen and (max-width: 992px)   {
+
+
 
  }
