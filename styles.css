@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.audi-summit {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audi-summit_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:100px;
+}
+
+.audi-summit_info {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    height: auto;
+    padding-top:10%;
+    padding-bottom:10%;
+    padding-left:10%;
+}
+
+.summit-info-h3 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 70%;
+    font-size: 40px;
+}
+
+.summit-info-h5 {
+    width: 75%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.summit-button{
+    margin-top: 20px;
+    width: 30%;
+    height: 60px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.summit-button p {
+    color:rgb(0, 0, 0);
+}
+
+.summit-button:hover {
+    background-color: #e9ebec;
+    border: #e9ebec;
+}
+
+.audi-summit-2 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ebec;
+    padding: 100px;
+}
