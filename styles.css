@@ -8,68 +8,152 @@
 }
 
 .audi-summit {
-    height: auto;
+    border: solid 1px red;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.audi-summit_1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding:100px;
+    padding: 20px;
+    margin: 80px;
 }
 
 .audi-summit_info {
+    border: solid 1px rgb(217, 255, 0);
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
-    height: auto;
-    padding-top:10%;
-    padding-bottom:10%;
-    padding-left:10%;
+    margin: 60px;
 }
 
 .summit-info-h3 {
+    border: solid 1px rgb(217, 255, 0);
     display: flex;
     align-items: center;
-    height: 150px;
-    width: 70%;
+    margin: 30px;
     font-size: 40px;
 }
 
 .summit-info-h5 {
-    width: 75%;
+    border: solid 1px black;
+    margin: 30px;
     font-size: 15px;
     font-weight: 400;
 }
 
 .summit-button{
-    margin-top: 20px;
-    width: 30%;
-    height: 60px;
+    border: solid 1px red;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.summit-button button {
+    padding: 20px;
     background-color: white;
     border: solid 1px black;
 }
 
-.summit-button p {
+.summit-button button p {
     color:rgb(0, 0, 0);
 }
 
-.summit-button:hover {
+.summit-button button:hover {
     background-color: #e9ebec;
     border: #e9ebec;
 }
 
-.audi-summit-2 {
-    height: auto;
+.audi-summit-photo {
+    border: solid 1px red;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e9ebec;
-    padding: 100px;
+    margin: 100px;
+    padding: 20px;
 }
+
+.summit-img {
+    width: 600px;
+}
+
+
+@media only screen and (max-width: 767px) { 
+
+    
+    .audi-summit {
+        border: solid 1px red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+    
+    .audi-summit_info {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .summit-info-h3 {
+        border: solid 1px rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0px;
+        width: 100%;
+        font-size: 30px;
+        padding:90px;
+        margin: 20px;
+    }
+    
+    .summit-info-h5 {
+        width: 75%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .summit-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .summit-button button {
+        padding: 20px;
+        background-color: white;
+        border: solid 1px black;
+    }
+    
+    .summit-button button p {
+        color:rgb(0, 0, 0);
+    }
+    
+    .summit-button button:hover {
+        background-color: #e9ebec;
+        border: #e9ebec;
+    }
+    
+    .audi-summit-photo {
+        border: solid 1px red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        padding: 10px;
+    }
+    
+    .summit-img {
+        width: 400px;
+    }
+    
+
+ }
