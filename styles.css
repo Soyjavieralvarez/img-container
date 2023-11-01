@@ -51,7 +51,6 @@
 }
 
 .summit-button button {
-    border: solid 1px rgb(140, 156, 139);
     padding: 20px;
     background-color: white;
     border: solid 1px black;
@@ -161,7 +160,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 400px;
+        width: 300px;
     }
     
 
